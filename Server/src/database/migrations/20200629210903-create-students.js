@@ -38,7 +38,7 @@ module.exports = {
     });
   },
 
-  down: async (queryInterface) => {
+  down: async queryInterface => {
     return queryInterface.dropTable('students');
   },
 };
